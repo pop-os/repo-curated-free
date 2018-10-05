@@ -1,0 +1,20 @@
+archive = "bionic"
+version = "18.04"
+origin = "system76-curated-free"
+label = "System76 Curated Free Software"
+email = "info@system76.com"
+
+[[repos]]
+repo = "http://ppa.launchpad.net/js-reynaud/kicad-5/ubuntu/pool/main/"
+version = { is = "ubuntu18.04" }
+arch = { not = "i386" }
+
+[[repos]]
+repo = "http://ppa.launchpad.net/freecad-maintainers/freecad-stable/ubuntu/pool/main/"
+version = { is = "ubuntu18.04" }
+arch = { not = "i386" }
+
+[[repos]]
+repo = "http://ppa.launchpad.net/peek-developers/stable/ubuntu/pool/main/"
+version = { is = "ubuntu18.04" }
+arch = { not = "i386"}
