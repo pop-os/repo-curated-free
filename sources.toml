@@ -18,3 +18,34 @@ arch = { not = "i386" }
 repo = "http://ppa.launchpad.net/peek-developers/stable/ubuntu/pool/main/"
 version = { is = "ubuntu18.04" }
 arch = { not = "i386"}
+
+[[direct]]
+name = "atom"
+version = "1.31.1"
+
+    [[direct.urls]]
+    url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
+    checksum = "6bf99fe2b1c745f31c8e5efda1b3d78612f09453040e23792a6e9016e045c853"
+
+[[direct]]
+name = "mattermost-desktop"
+version = "4.1.2"
+
+    [[direct.urls]]
+    url = "https://releases.mattermost.com/desktop/${version}/${name}-${version}-linux-amd64.deb"
+    checksum = "9c53abf8b2e50d9eae02cb1cbebe0e006091388c7ce49d26f95b93e2a7df6ffb"
+
+[[direct]]
+name = "wire-desktop"
+version = "3.3.2872"
+
+    [[direct.urls]]
+    url = "https://github.com/wireapp/${name}/releases/download/release/${version}/wire_${version}_amd64.deb"
+    checksum = "fca2cabdd934dca956525b60f97dd2712120499c7f10b10259fe4701439ada13"
+
+[[source]]
+name = "piserver"
+build_on = "changelog"
+
+    [source.location]
+    git = "https://github.com/raspberrypi/piserver"
