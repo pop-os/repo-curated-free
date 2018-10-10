@@ -14,6 +14,12 @@ repo = "http://ppa.launchpad.net/freecad-maintainers/freecad-stable/ubuntu/pool/
 version = { is = "ubuntu18.04" }
 arch = { not = "i386" }
 
+# Rust 1.28.0
+[[repos]]
+repo = "http://archive.ubuntu.com/ubuntu/pool/universe/r/rustc/"
+version = { is = "1.28" }
+arch = { is = "all|amd64" }
+
 # Peek GTK application
 [[repos]]
 repo = "http://ppa.launchpad.net/peek-developers/stable/ubuntu/pool/main/"
