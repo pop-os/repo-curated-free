@@ -1,0 +1,84 @@
+archive = "bionic"
+version = "18.04"
+origin = "system76-curated-free"
+label = "System76 Curated Free Software"
+email = "michael@system76.com"
+
+[[repos]]
+repo = "http://ppa.launchpad.net/js-reynaud/kicad-5/ubuntu/pool/main/"
+version = { is = "ubuntu18.04" }
+arch = { not = "i386" }
+
+[[repos]]
+repo = "http://ppa.launchpad.net/freecad-maintainers/freecad-stable/ubuntu/pool/main/"
+version = { is = "ubuntu18.04" }
+arch = { not = "i386" }
+
+# Rust 1.28.0
+[[repos]]
+repo = "http://archive.ubuntu.com/ubuntu/pool/universe/r/rustc/"
+version = { is = "1.28" }
+arch = { is = "all|amd64" }
+
+# Peek GTK application
+[[repos]]
+repo = "http://ppa.launchpad.net/peek-developers/stable/ubuntu/pool/main/"
+version = { is = "ubuntu18.04" }
+arch = { not = "i386"}
+
+# Updated thunderbird packages, and firefox-esr
+[[repos]]
+repo = "http://ppa.launchpad.net/mozillateam/ppa/ubuntu/pool/main/"
+version = { is = "18.04" }
+arch = { is = "amd64|all" }
+
+# # Updated stable scribus (1.4.x), and scribus-ng (1.5.x)
+# [[repos]]
+# repo = "http://ppa.launchpad.net/scribus/ppa/ubuntu/pool/main/"
+# version = { is = "ubuntu18.04" }
+
+# # Updated MPV packages built with vapoursynth support
+# [[repos]]
+# repo = "http://ppa.launchpad.net/djcj/vapoursynth/ubuntu/pool/main/"
+# version = { is = "bionic" }
+
+# # Updated GIMP packages
+# [[repos]]
+# repo = "http://ppa.launchpad.net/otto-kesselgulasch/gimp/ubuntu/pool/main/"
+# version = { is = "18.04" }
+
+# # Updated Krita packages
+# [[repos]]
+# repo = "http://ppa.launchpad.net/kritalime/ppa/ubuntu/pool/main/"
+# version = { is = "bionic|18.04" }
+
+[[direct]]
+name = "atom"
+version = "1.31.1"
+
+    [[direct.urls]]
+    url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
+    checksum = "6bf99fe2b1c745f31c8e5efda1b3d78612f09453040e23792a6e9016e045c853"
+
+[[direct]]
+name = "mattermost-desktop"
+version = "4.1.2"
+
+    [[direct.urls]]
+    url = "https://releases.mattermost.com/desktop/${version}/${name}-${version}-linux-amd64.deb"
+    checksum = "9c53abf8b2e50d9eae02cb1cbebe0e006091388c7ce49d26f95b93e2a7df6ffb"
+
+[[direct]]
+name = "wire-desktop"
+version = "3.3.2872"
+
+    [[direct.urls]]
+    url = "https://github.com/wireapp/${name}/releases/download/release/${version}/wire_${version}_amd64.deb"
+    checksum = "fca2cabdd934dca956525b60f97dd2712120499c7f10b10259fe4701439ada13"
+
+[[source]]
+name = "piserver"
+build_on = "changelog"
+
+    [source.location]
+    git = "https://github.com/raspberrypi/piserver"
