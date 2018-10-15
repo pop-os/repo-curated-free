@@ -7,12 +7,12 @@ email = "michael@system76.com"
 [[repos]]
 repo = "http://ppa.launchpad.net/js-reynaud/kicad-5/ubuntu/pool/main/"
 version = { is = "ubuntu18.04" }
-arch = { not = "i386" }
+arch = { is = "all|amd64" }
 
 [[repos]]
 repo = "http://ppa.launchpad.net/freecad-maintainers/freecad-stable/ubuntu/pool/main/"
 version = { is = "ubuntu18.04" }
-arch = { not = "i386" }
+arch = { is = "all|amd64" }
 
 # Rust 1.28.0
 [[repos]]
@@ -24,18 +24,19 @@ arch = { is = "all|amd64" }
 [[repos]]
 repo = "http://ppa.launchpad.net/peek-developers/stable/ubuntu/pool/main/"
 version = { is = "ubuntu18.04" }
-arch = { not = "i386"}
+arch = { is = "all|amd64"}
 
 # Updated thunderbird packages, and firefox-esr
 [[repos]]
 repo = "http://ppa.launchpad.net/mozillateam/ppa/ubuntu/pool/main/"
 version = { is = "18.04" }
-arch = { is = "amd64|all" }
+arch = { is = "all|amd64" }
 
-# # Updated stable scribus (1.4.x), and scribus-ng (1.5.x)
-# [[repos]]
-# repo = "http://ppa.launchpad.net/scribus/ppa/ubuntu/pool/main/"
-# version = { is = "ubuntu18.04" }
+# Updated stable scribus (1.4.x), and scribus-ng (1.5.x)
+[[repos]]
+repo = "http://ppa.launchpad.net/scribus/ppa/ubuntu/pool/main/"
+version = { is = "ubuntu18.04" }
+arch = { is = "all|amd64" }
 
 # # Updated MPV packages built with vapoursynth support
 # [[repos]]
