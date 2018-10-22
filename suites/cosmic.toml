@@ -2,16 +2,11 @@ archive = "cosmic"
 version = "18.10"
 origin = "system76-curated-free"
 label = "System76 Curated Free Software"
-email = "michael@system76.com"
+email = "info@system76.com"
 
 [[repos]]
 repo = "http://ppa.launchpad.net/js-reynaud/kicad-5/ubuntu/pool/main/"
 version = { is = "ubuntu18.10" }
-arch = { is = "amd64|all" }
-
-[[repos]]
-repo = "http://ppa.launchpad.net/freecad-maintainers/freecad-stable/ubuntu/pool/main/"
-version = { is = "ubuntu18.04" }
 arch = { is = "amd64|all" }
 
 # Peek GTK application
