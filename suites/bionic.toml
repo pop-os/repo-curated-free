@@ -49,11 +49,11 @@ arch = { is = "all|amd64" }
 
 [[direct]]
 name = "atom"
-version = "1.32.0"
+version = "1.32.1"
 
     [[direct.urls]]
     url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
-    checksum = "ad96caf2c22df7b28e1a336ba53fc7ee1a844f5cfe683b52921dea47e2470a36"
+    checksum = "094fc7f64bd276946c57dbcf0ce83ee25c9cc027ff6c80774d1c3fb5e19242f4"
 
 [[direct]]
 name = "mattermost-desktop"
