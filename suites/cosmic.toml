@@ -69,7 +69,6 @@ version = "3.3.2872"
 [[direct]]
 name = "github-desktop"
 version = "1.4.2-linux1"
-arch = "amd64"
 
     [[direct.urls]]
     arch = "amd64"
