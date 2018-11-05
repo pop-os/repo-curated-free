@@ -66,13 +66,14 @@ version = "3.3.2872"
     url = "https://github.com/wireapp/${name}/releases/download/release/${version}/wire_${version}_amd64.deb"
     checksum = "fca2cabdd934dca956525b60f97dd2712120499c7f10b10259fe4701439ada13"
 
-[[direct]]
-name = "github-desktop"
-version = "1.4.2-linux1"
+# [[direct]]
+# name = "github-desktop"
+# version = "1.4.2-linux1"
+# arch = "amd64"
 
-    [[direct.urls]]
-    url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-amd64-${version}.deb"
-    checksum = "1707e8ec012c48677b5a8735fad5546d5e1406a8afe81fe59bc2429fbc242986"
+#     [[direct.urls]]
+#     url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-amd64-${version}.deb"
+#     checksum = "1707e8ec012c48677b5a8735fad5546d5e1406a8afe81fe59bc2429fbc242986"
 
 [[source]]
 name = "piserver"
