@@ -44,27 +44,27 @@ arch = { is = "amd64|all" }
 
 [[direct]]
 name = "atom"
-version = "1.32.2"
+version = "1.33.0"
 
     [[direct.urls]]
     url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
-    checksum = "c0f166722815b517ae827567b650800d2c64aca36023bde78f45433a70383e9e"
+    checksum = "59b04ef93354768b27978d8e97e91faae87155a4d1df18021e95a4fff837d538"
 
 [[direct]]
 name = "mattermost-desktop"
-version = "4.1.2"
+version = "4.2.0"
 
     [[direct.urls]]
     url = "https://releases.mattermost.com/desktop/${version}/${name}-${version}-linux-amd64.deb"
-    checksum = "9c53abf8b2e50d9eae02cb1cbebe0e006091388c7ce49d26f95b93e2a7df6ffb"
+    checksum = "80c7f875b3271bf68161be18cab88e71b73985cd67931c62f7da969d2cd78df2"
 
 [[direct]]
 name = "wire-desktop"
-version = "3.3.2872"
+version = "3.4.2879"
 
     [[direct.urls]]
     url = "https://github.com/wireapp/${name}/releases/download/release/${version}/wire_${version}_amd64.deb"
-    checksum = "fca2cabdd934dca956525b60f97dd2712120499c7f10b10259fe4701439ada13"
+    checksum = "2d95f2aa0eac6d55cbcc3851e39e708f310d229c75d5ea919767e1bd075f67b4"
 
 [[direct]]
 name = "github-desktop"
