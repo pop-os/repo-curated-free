@@ -9,32 +9,11 @@ repo = "http://ppa.launchpad.net/js-reynaud/kicad-5/ubuntu/pool/main/"
 version = { is = "ubuntu18.10" }
 arch = { is = "amd64|all" }
 
-# Peek GTK application
-[[repos]]
-repo = "http://ppa.launchpad.net/peek-developers/stable/ubuntu/pool/main/"
-version = { is = "ubuntu18.10" }
-arch = { is = "amd64|all" }
-
 # Updated stable scribus (1.4.x), and scribus-ng (1.5.x)
 [[repos]]
 repo = "http://ppa.launchpad.net/scribus/ppa/ubuntu/pool/main/"
 version = { is = "ubuntu18.10" }
 arch = { is = "amd64|all" }
-
-# # Updated MPV packages built with vapoursynth support
-# [[repos]]
-# repo = "http://ppa.launchpad.net/djcj/vapoursynth/ubuntu/pool/main/"
-# version = { is = "bionic" }
-
-# # Updated GIMP packages
-# [[repos]]
-# repo = "http://ppa.launchpad.net/otto-kesselgulasch/gimp/ubuntu/pool/main/"
-# version = { is = "18.04" }
-
-# # Updated Krita packages
-# [[repos]]
-# repo = "http://ppa.launchpad.net/kritalime/ppa/ubuntu/pool/main/"
-# version = { is = "bionic|18.04" }
 
 [[direct]]
 name = "atom"
