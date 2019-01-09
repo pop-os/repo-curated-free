@@ -15,6 +15,12 @@ repo = "http://ppa.launchpad.net/scribus/ppa/ubuntu/pool/main/"
 version = { is = "ubuntu18.10" }
 arch = { is = "amd64|all" }
 
+# Updated thunderbird packages, and firefox-esr
+[[repos]]
+repo = "http://ppa.launchpad.net/mozillateam/ppa/ubuntu/pool/main/"
+version = { is = "18.04" }
+arch = { is = "all|amd64" }
+
 [[direct]]
 name = "atom"
 version = "1.33.0"
