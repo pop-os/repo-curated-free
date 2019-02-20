@@ -39,11 +39,11 @@ version = "4.2.0"
 
 [[direct]]
 name = "wire-desktop"
-version = "3.4.2879"
+version = "3.6.2885"
 
     [[direct.urls]]
     url = "https://github.com/wireapp/${name}/releases/download/release/${version}/wire_${version}_amd64.deb"
-    checksum = "2d95f2aa0eac6d55cbcc3851e39e708f310d229c75d5ea919767e1bd075f67b4"
+    checksum = "3bedda4d8fb640c0f3a0f65a89258dfe788dc0e3d686db7ebe6a6ce4af4388b6"
 
 [[direct]]
 name = "github-desktop"
