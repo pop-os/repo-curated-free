@@ -25,6 +25,7 @@ arch = { is = "all|amd64"}
 repo = "http://ppa.launchpad.net/scribus/ppa/ubuntu/pool/main/"
 version = { is = "ubuntu18.04" }
 arch = { is = "all|amd64" }
+name = { not = "dbg"}
 
 [[direct]]
 name = "atom"
