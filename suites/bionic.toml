@@ -8,6 +8,7 @@ email = "michael@system76.com"
 repo = "http://ppa.launchpad.net/js-reynaud/kicad-5/ubuntu/pool/main/"
 version = { is = "ubuntu18.04" }
 arch = { is = "all|amd64" }
+name = { not = "dbg"}
 
 [[repos]]
 repo = "http://ppa.launchpad.net/freecad-maintainers/freecad-stable/ubuntu/pool/main/"
