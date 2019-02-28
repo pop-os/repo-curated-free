@@ -4,12 +4,6 @@ origin = "system76-curated-free"
 label = "System76 Curated Free Software"
 email = "info@system76.com"
 
-# Updated thunderbird packages, and firefox-esr
-[[repos]]
-repo = "http://ppa.launchpad.net/mozillateam/ppa/ubuntu/pool/main/"
-version = { is = "19.04" }
-arch = { is = "amd64|all" }
-
 [[direct]]
 name = "atom"
 version = "1.34.0"
