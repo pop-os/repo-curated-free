@@ -8,6 +8,7 @@ email = "info@system76.com"
 repo = "http://ppa.launchpad.net/js-reynaud/kicad-5/ubuntu/pool/main/"
 version = { is = "ubuntu18.10" }
 arch = { is = "amd64|all" }
+name = { not = "dbg"}
 
 # Updated stable scribus (1.4.x), and scribus-ng (1.5.x)
 [[repos]]
