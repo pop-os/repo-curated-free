@@ -38,7 +38,7 @@ name = "wire-desktop"
 version = "3.7.2891"
 
     [[direct.urls]]
-    url = "https://github.com/wireapp/wire-desktop/releases/download/linux%2F${version}/Wire-${version}-amd64.deb"
+    url = "https://github.com/wireapp/wire-desktop/releases/download/linux%2F${version}/Wire-${version}_amd64.deb"
     checksum = "0c7f16c951b47c570d0f7ddea192a84552e0400e90043b20888aa77c73e89674"
 
 [[direct]]
