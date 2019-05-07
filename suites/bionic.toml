@@ -57,7 +57,7 @@ version = "1.6.6-linux2"
 
     [[direct.urls]]
     arch = "amd64"
-    url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-amd64-${version}.deb"
+    url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-${version}.deb"
     checksum = "3e359658578e1b6f385de20f62d1139bd27447db58b380d721a1c33b4e3f671e"
 
 [[source]]
