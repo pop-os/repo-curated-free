@@ -6,11 +6,11 @@ email = "info@system76.com"
 
 [[direct]]
 name = "atom"
-version = "1.36.1"
+version = "1.37.0"
 
     [[direct.urls]]
     url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
-    checksum = "e4620204c9c7a7defa5f710ca061e6c9e48ce325662c7ce799c390fe4716f8d4"
+    checksum = "9ba2fa35f36326d4378ec76816c645bfa5465218e1bc6b883a5c0c364870f208"
 
 [[direct]]
 name = "mattermost-desktop"
