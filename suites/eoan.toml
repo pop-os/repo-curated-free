@@ -1,0 +1,45 @@
+archive = "eoan"
+version = "19.10"
+origin = "system76-curated-free"
+label = "System76 Curated Free Software"
+email = "info@system76.com"
+
+[[direct]]
+name = "atom"
+version = "1.38.2"
+
+    [[direct.urls]]
+    url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
+    checksum = "43c447aba3ff0d6449abf369881287e448e55c056f11a70f65fa05891fc01b0d"
+
+[[direct]]
+name = "mattermost-desktop"
+version = "4.2.1"
+
+    [[direct.urls]]
+    url = "https://releases.mattermost.com/desktop/${version}/${name}-${version}-linux-amd64.deb"
+    checksum = "12c59c22ca0320dd57d0dc91c680e31fb2245baf72afa4262be0b9b8c1f69201"
+
+[[direct]]
+name = "wire-desktop"
+version = "3.9.2895"
+
+    [[direct.urls]]
+    url = "https://github.com/wireapp/wire-desktop/releases/download/linux%2F${version}/Wire-${version}_amd64.deb"
+    checksum = "45112ceb67de2d53eef79ef6a844a8e4cd1130573f4142aa3f8b48626a493673"
+
+[[direct]]
+name = "github-desktop"
+version = "1.6.6-linux2"
+
+    [[direct.urls]]
+    arch = "amd64"
+    url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-${version}.deb"
+    checksum = "3e359658578e1b6f385de20f62d1139bd27447db58b380d721a1c33b4e3f671e"
+
+# [[source]]
+# name = "piserver"
+# build_on = "changelog"
+
+#     [source.location]
+#     git = "https://github.com/raspberrypi/piserver"
