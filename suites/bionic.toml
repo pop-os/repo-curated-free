@@ -30,19 +30,19 @@ name = { not = "dbg"}
 
 [[direct]]
 name = "atom"
-version = "1.38.2"
+version = "1.39.1"
 
     [[direct.urls]]
     url = "https://github.com/${name}/${name}/releases/download/v${version}/${name}-amd64.deb"
-    checksum = "43c447aba3ff0d6449abf369881287e448e55c056f11a70f65fa05891fc01b0d"
+    checksum = "21b9b644166e65fe14ee9e14b01209484d943e101382a9fbaed2c55a0729b9e4"
 
 [[direct]]
 name = "mattermost-desktop"
-version = "4.2.1"
+version = "4.2.3"
 
     [[direct.urls]]
     url = "https://releases.mattermost.com/desktop/${version}/${name}-${version}-linux-amd64.deb"
-    checksum = "12c59c22ca0320dd57d0dc91c680e31fb2245baf72afa4262be0b9b8c1f69201"
+    checksum = "11e1dd93eeb0f8f845b2fbee44c3034d86deac1961501d1590de87d432a03788"
 
 [[direct]]
 name = "wire-desktop"
