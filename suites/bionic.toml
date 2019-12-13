@@ -38,11 +38,11 @@ version = "1.41.0"
 
 [[direct]]
 name = "mattermost-desktop"
-version = "4.3.1"
+version = "4.3.2"
 
     [[direct.urls]]
     url = "https://releases.mattermost.com/desktop/${version}/${name}-${version}-linux-amd64.deb"
-    checksum = "e2ab63e8235221edf4c17cfbffec7cd7e067125c2d0f81847ec2ba99c0ae7bef"
+    checksum = "d43ef2f1ea3b2b4b7b1b97a6de598e25d7a8c8f5e82404f4b73cfef89b3dd120"
 
 [[direct]]
 name = "wire-desktop"
