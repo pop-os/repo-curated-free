@@ -10,7 +10,7 @@ version = "1.45.0"
 
     [[direct.urls]]
     url = "https://atom-installer.github.com/v${version}/${name}-amd64.deb"
-    checksum = "5e9a487da9d7d6530be61d4af2454b0bcfc907537447cf9d0423766e91282ac7"
+    checksum = "04a80193cd3ded01c3a89d0e7b0a030b4f5f5c5e2f461a327e006ea8daf3f5e1"
 
 [[direct]]
 name = "github-desktop"
