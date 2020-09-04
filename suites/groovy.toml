@@ -1,0 +1,29 @@
+archive = "groovy"
+version = "20.10"
+origin = "system76-curated-free"
+label = "System76 Curated Free Software"
+email = "info@system76.com"
+
+[[direct]]
+name = "atom"
+version = "1.49.0"
+
+    [[direct.urls]]
+    url = "https://atom-installer.github.com/v${version}/${name}-amd64.deb"
+    checksum = "7099181a9a8616de9b1b8e220ad7ea07c2a2208a30ea8b56464bf6587805a7e5"
+
+[[direct]]
+name = "github-desktop"
+version = "2.4.1-linux1"
+
+    [[direct.urls]]
+    arch = "amd64"
+    url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-${version}.deb"
+    checksum = "5339a240b549656cfcf948d98002f03842914d7eaa6ed0548e352e30ffa4b683"
+
+# [[source]]
+# name = "piserver"
+# build_on = "changelog"
+
+#     [source.location]
+#     git = "https://github.com/raspberrypi/piserver"
