@@ -30,11 +30,11 @@ name = { not = "dbg"}
 
 [[direct]]
 name = "atom"
-version = "1.49.0"
+version = "1.52.0"
 
     [[direct.urls]]
     url = "https://atom-installer.github.com/v${version}/${name}-amd64.deb"
-    checksum = "7099181a9a8616de9b1b8e220ad7ea07c2a2208a30ea8b56464bf6587805a7e5"
+    checksum = "4597ead3a829e84111c294768e6397b3c2b84d5c5701744b9ec79115e84a69a8"
 
 [[direct]]
 name = "mattermost-desktop"
