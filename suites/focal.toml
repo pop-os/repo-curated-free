@@ -6,11 +6,11 @@ email = "info@system76.com"
 
 [[direct]]
 name = "atom"
-version = "1.52.0"
+version = "1.53.0"
 
     [[direct.urls]]
-    url = "https://atom-installer.github.com/v${version}/${name}-amd64.deb"
-    checksum = "4597ead3a829e84111c294768e6397b3c2b84d5c5701744b9ec79115e84a69a8"
+    url = "https://github.com/atom/atom/releases/download/v1.53.0/atom-amd64.deb"
+    checksum = "dd9198204d99aace37c7c01087ab16bc7179d1a04b3d9d24371d3e68c1b27b2d"
 
 [[direct]]
 name = "github-desktop"
