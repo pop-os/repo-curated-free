@@ -14,12 +14,12 @@ version = "1.53.0"
 
 [[direct]]
 name = "github-desktop"
-version = "2.4.1-linux1"
+version = "2.7.2-linux1"
 
     [[direct.urls]]
     arch = "amd64"
     url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-${version}.deb"
-    checksum = "5339a240b549656cfcf948d98002f03842914d7eaa6ed0548e352e30ffa4b683"
+    checksum = "24ab3159956388b5c548de8bb787244a4e0c59c2ba32bfbaad1a07acd7f5b3f1"
 
 # [[source]]
 # name = "piserver"
