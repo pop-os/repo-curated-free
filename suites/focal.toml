@@ -10,7 +10,7 @@ version = "1.58.0"
 
     [[direct.urls]]
     url = "https://github.com/atom/atom/releases/download/v${version}/atom-amd64.deb"
-    checksum = "27c2883537a22095daa4f8a6fc30391cfe150ab1d0325893706fb7c59394ab58"
+    checksum = "4310e1af8830952f4efe59349dfaacc39b0588f72449314bd795ed469421d2d5"
 
 [[direct]]
 name = "github-desktop"
