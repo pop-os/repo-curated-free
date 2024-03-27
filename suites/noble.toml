@@ -1,0 +1,29 @@
+archive = "noble"
+version = "24.04"
+origin = "system76-curated-free"
+label = "System76 Curated Free Software"
+email = "info@system76.com"
+
+[[direct]]
+name = "atom"
+version = "1.58.0"
+
+    [[direct.urls]]
+    url = "https://github.com/atom/atom/releases/download/v${version}/atom-amd64.deb"
+    checksum = "4310e1af8830952f4efe59349dfaacc39b0588f72449314bd795ed469421d2d5"
+
+[[direct]]
+name = "github-desktop"
+version = "2.8.1-linux1"
+
+    [[direct.urls]]
+    arch = "amd64"
+    url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-${version}.deb"
+    checksum = "bb2006845389587734039c8a6138cd7a78f388dc5ab4c8cd81959cd8206d8041"
+
+# [[source]]
+# name = "piserver"
+# build_on = "changelog"
+
+#     [source.location]
+#     git = "https://github.com/raspberrypi/piserver"
