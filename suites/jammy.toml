@@ -21,6 +21,15 @@ version = "2.8.1-linux1"
     url = "https://github.com/shiftkey/desktop/releases/download/release-${version}/GitHubDesktop-linux-${version}.deb"
     checksum = "bb2006845389587734039c8a6138cd7a78f388dc5ab4c8cd81959cd8206d8041"
 
+[[direct]]
+name = "virtualbox-7.2"
+version = "7.2.2-170484"
+
+    [[direct.urls]]
+    arch = "amd64"
+    url = "https://download.virtualbox.org/virtualbox/7.2.2/virtualbox-7.2_${version}~Ubuntu~jammy_amd64.deb"
+    checksum = "2893ddd3a76df6867be29d0fa1bff53b19c3455e79bb3fef285a6393d3dc694b"
+
 # [[source]]
 # name = "piserver"
 # build_on = "changelog"
