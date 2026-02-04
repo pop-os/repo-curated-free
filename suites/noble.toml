@@ -23,12 +23,12 @@ version = "2.8.1-linux1"
 
 [[direct]]
 name = "virtualbox"
-version = "7.2.2-170484"
+version = "7.2.6-172322"
 
     [[direct.urls]]
     arch = "amd64"
-    url = "https://download.virtualbox.org/virtualbox/7.2.2/virtualbox-7.2_${version}~Ubuntu~noble_amd64.deb"
-    checksum = "2e5f48404328476f15dd35b7bde710b2a58e5e64bfa7fa78b64970336ba13aac"
+    url = "https://download.virtualbox.org/virtualbox/7.2.6/virtualbox-7.2_${version}~Ubuntu~noble_amd64.deb"
+    checksum = "6040ce0bdedec6e33778e09ee076e19ac07d47d5dfc7e2d8d3219eeb4e420cb6"
 
 
 # [[source]]
