@@ -24,6 +24,7 @@ version = "2.8.1-linux1"
 [[direct]]
 name = "virtualbox"
 version = "7.2.6-172322"
+# When updating, remember to also update the extension pack: https://github.com/pop-os/virtualbox-ext-pack
 
     [[direct.urls]]
     arch = "amd64"
