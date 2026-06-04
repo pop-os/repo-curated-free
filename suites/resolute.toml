@@ -28,7 +28,7 @@ version = "7.2.8-173730"
 
     [[direct.urls]]
     arch = "amd64"
-    url = "https://download.virtualbox.org/virtualbox/7.2.8/virtualbox-7.2_${version}~Ubuntu~noble_amd64.deb"
+    url = "https://download.virtualbox.org/virtualbox/7.2.8/virtualbox-7.2_${version}~Ubuntu~resolute_amd64.deb"
     checksum = "202263c01eb698480ea5152093bfd4656c38a7a8f1c76ab68a63a319ce8c3163"
 
 
