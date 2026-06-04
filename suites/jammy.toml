@@ -23,13 +23,13 @@ version = "2.8.1-linux1"
 
 [[direct]]
 name = "virtualbox"
-version = "7.2.6-172322"
+version = "7.2.8-173730"
 # When updating, remember to also update the extension pack: https://github.com/pop-os/virtualbox-ext-pack
 
     [[direct.urls]]
     arch = "amd64"
-    url = "https://download.virtualbox.org/virtualbox/7.2.6/virtualbox-7.2_${version}~Ubuntu~jammy_amd64.deb"
-    checksum = "140aed54f017201aead64f85ec9948d79ab94e4bef172a257dc2fca43df8bec9"
+    url = "https://download.virtualbox.org/virtualbox/7.2.8/virtualbox-7.2_${version}~Ubuntu~jammy_amd64.deb"
+    checksum = "e2a2ba8142672bee7e44ab904484ad5b5aa8f8ae6d5c5294839371e0d5346e54"
 
 # [[source]]
 # name = "piserver"
