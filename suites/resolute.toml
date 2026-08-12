@@ -23,13 +23,13 @@ version = "2.8.1-linux1"
 
 [[direct]]
 name = "virtualbox"
-version = "7.2.8-173730"
+version = "7.2.14-174565"
 # When updating, remember to also update the extension pack: https://github.com/pop-os/virtualbox-ext-pack
 
     [[direct.urls]]
     arch = "amd64"
-    url = "https://download.virtualbox.org/virtualbox/7.2.8/virtualbox-7.2_${version}~Ubuntu~resolute_amd64.deb"
-    checksum = "202263c01eb698480ea5152093bfd4656c38a7a8f1c76ab68a63a319ce8c3163"
+    url = "https://download.virtualbox.org/virtualbox/7.2.14/virtualbox-7.2_${version}~Ubuntu~resolute_amd64.deb"
+    checksum = "b60b940ca59780652bf601abe44d7e22ea364da651f492f8406bf4ad9d25e138"
 
 
 # [[source]]
