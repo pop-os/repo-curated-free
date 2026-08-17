@@ -1,19 +1,17 @@
- Package: virtualbox-7.2
- Version: 7.2.14-174565~Ubuntu~resolute
- Architecture: amd64
- Maintainer: Oracle Corporation <info@virtualbox.org>
- Installed-Size: 241248
- Pre-Depends: debconf (>= 1.1) | debconf-2.0
- Depends: psmisc, adduser, libvulkan1, libc6 (>= 2.42), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.139 (>= 2.8.139), liblzf1 (>= 1.5), liblzma5 (>= 5.1.1alpha+20120614), libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.9.1), libqt6help6 (>= 6.6.0), libqt6printsupport6 (>= 6.1.2), libqt6statemachine6 (>= 6.6.1), libqt6widgets6 (>= 6.10.2), libqt6xml6 (>= 6.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtpms0 (>= 0.8.0~dev1), libvpx12 (>= 1.16.0), libx11-6, libxcb1, libxml2-16 (>= 2.14.1), libxt6t64, zlib1g (>= 1:1.1.4)
- Recommends: libasound2, libpulse0, libsdl-ttf2.0-0, kmod | kldutils | module-init-tools, linux-headers-generic | linux-headers-generic-pae | linux-headers-686-pae | linux-headers-amd64 | linux-headers-2.6-686 | linux-headers-2.6-amd64 | linux-headers, linux-image, gcc, make | build-essential | dpkg-dev, binutils, pdf-viewer
- Conflicts: virtualbox, virtualbox-dkms, virtualbox-guest-additions-iso, virtualbox-ose, virtualbox-qt
- Replaces: virtualbox
- Provides: virtualbox
- Section: contrib/misc
- Priority: optional
- Description: Oracle VirtualBox
-  VirtualBox is a powerful PC virtualization solution allowing you to run a
-  wide range of PC operating systems on your Linux system. This includes
-  Windows, Linux, FreeBSD, DOS, OpenBSD and others. VirtualBox comes with a broad
-  feature set and excellent performance, making it the premier virtualization
-  software solution on the market.
+Package: virtualbox
+Version: 7.2.14-174565~Ubuntu~resolute
+Architecture: amd64
+Maintainer: Oracle Corporation <info@virtualbox.org>
+Installed-Size: 241248
+Pre-Depends: debconf (>= 1.1) | debconf-2.0
+Depends: Depends: psmisc, adduser, libvulkan1, libc6 (>= 2.42), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.0), libgl1, libgsoap-2.8.139 (>= 2.8.139), liblzf1 (>= 1.5), liblzma5 (>= 5.1.1alpha+20120614), libpng16-16t64 (>= 1.6.46), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.9.1), libqt6help6 (>= 6.6.0), libqt6printsupport6 (>= 6.1.2), libqt6statemachine6 (>= 6.6.1), libqt6widgets6 (>= 6.10.2), libqt6xml6 (>= 6.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtpms0 (>= 0.8.0~dev1), libvpx12 (>= 1.16.0), libx11-6, libxcb1, libxml2-16 (>= 2.14.1), libxt6t64, zlib1g (>= 1:1.1.4)
+Recommends: libasound2, libpulse0, libsdl-ttf2.0-0, kmod | kldutils | module-init-tools, linux-headers-generic | linux-headers-generic-pae | linux-headers-686-pae | linux-headers-amd64 | linux-headers-2.6-686 | linux-headers-2.6-amd64 | linux-headers, linux-image, gcc, make | build-essential | dpkg-dev, binutils, pdf-viewer
+Conflicts: virtualbox-ose
+Section: contrib/misc
+Priority: optional
+Description: Oracle VirtualBox
+ VirtualBox is a powerful PC virtualization solution allowing you to run a
+ wide range of PC operating systems on your Linux system. This includes
+ Windows, Linux, FreeBSD, DOS, OpenBSD and others. VirtualBox comes with a broad
+ feature set and excellent performance, making it the premier virtualization
+ software solution on the market.
